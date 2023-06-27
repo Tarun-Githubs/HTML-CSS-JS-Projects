@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+    .container{
+        width: 1000px;
+        height: auto;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+    }
+    .box{
+        width: 28%;
+        height: 350px;
+        float: left;
+        text-align: center;
+        background: rgb(255,252,252);
+        margin-left: 4%;
+        border-radius: 7px;
+        margin-top: 40px;
+        overflow: hidden;
+        box-shadow:rgba(0, 0, 0, 0.12)0px 1px 3px , rgba(0, 0,0,0.24)0px 1px 2px;
+    }
+    .box:nth-child(2){
+        position: relative;
+        bottom: 30px;
+    }
+    .title{
+        color: white;
+        height: 60px;
+        line-height: 60px;
+        background: #299177;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    .box ul{
+        margin-top: 20px;
+        text-align: left;
+    }
+    .box li{
+        font-size:18px;
+        margin-top: 7px;
+        width: 60%;
+        margin-left: 20%;
+        list-style-type: none;
+    }
+    .price{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    button{
+        cursor: pointer;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        height: 40px;
+        font-size: 18px;
+        border:none;
+        background: #299177;
+        border-radius: 7px;
+        color: white;
+        font-weight: 100;
+    }
+</style>
+<body>
+    <!-- font awesome icon cdn -->
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="box">
+            <div class="title">Basic</div>
+             <ul>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>Hosting</li>
+                <li><i class="fa-solid fa-xmark" style="color: #cc2929;"></i>Domain</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>1 GB Space</li>
+                <li><i class="fa-solid fa-xmark" style="color: #cc2929;"></i>Free SSL</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>1 Website Host</li>
+             </ul>
+             <div class="price"><b>$5</b></div>
+             <button type="btn">Buy Now</button>
+        </div>
+        <div class="box">
+            <div class="title" style="background: #cc2929;">Standard</div>
+             <ul>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>Hosting</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>Domain</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>10 GB Space</li>
+                <li><i class="fa-solid fa-xmark" style="color: #cc2929;"></i>Free SSL</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>4 Website Host</li>
+             </ul>
+             <div class="price"><b>$10</b></div>
+             <button type="btn">Buy Now</button>
+        </div>
+        <div class="box">
+            <div class="title">Standard</div>
+             <ul>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>Hosting</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>Domain</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>10 GB Space</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>Free SSL</li>
+                <li><i class="fa-solid fa-check" style="color: #299177;"></i>4 Website Host</li>
+             </ul>
+             <div class="price"><b>$20</b></div>
+             <button type="btn">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>

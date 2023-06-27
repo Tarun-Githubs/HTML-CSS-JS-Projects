@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav{
+        height: 50px;
+    }
+    body{
+        background-image: url(./img/image.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .container{
+        width: 1140px;
+        margin: auto;
+    }
+
+    .brand{
+        line-height: 50px;
+        padding: 5px;
+        font-size: 30px;
+        float: left;
+        color: #20bcd0;
+    }
+    .list{
+        float: right;
+        line-height: 50px;
+        padding: 5px;
+    }
+    .list li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px;
+    }
+    .active{
+        background: #ffc127;
+        padding: 10px 20px;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+    }
+    .nav-item{
+        padding: 10px 20px;
+        border-radius: 8px;
+        color: #20bcd0;
+        text-decoration: none;
+    }
+    .nav-item:hover{
+        background: #ffc127;
+        color: white;
+    }
+    .content{
+        padding: 5px;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 45%;
+    }
+    .content h1{
+        font-size: 50px;
+        color: #ffc127;
+    }
+    .content p{
+        width: 420px;
+        padding-top: 15px;
+    }
+    button{
+        margin-top: 18px;
+        padding: 10px 20px;
+        border: none;
+        background: #ffc127;
+        color: white;
+        border-radius: 7px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <nav>
+        <div class="container">
+            <div class="brand"><b>Tarun Code</b></div>
+            <ul class="list">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="nav-item">About</a></li>
+                <li><a href="#" class="nav-item">Service</a></li>
+                <li><a href="#" class="nav-item">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="content">
+            <h1>Design <br> <span style="color: #20bcd0;">Landing Page</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellat suscipit beatae ducimus, aspernatur culpa soluta eum at unde facilis ipsum veniam enim harum nesciunt consequuntur quo provident, voluptatum nisi commodi reprehenderit aut sint? Laboriosam voluptas provident esse harum explicabo rem, dolor quis unde voluptatem tempore praesentium, accusantium pariatur libero debitis a eius voluptate.</p>
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
