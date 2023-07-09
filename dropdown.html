@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 40%;
+        left:50%;
+    }
+
+    .dropdown-toggle {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 200px;
+        background-color: #f3f3f3;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: transform 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .dropdown-menu li {
+        padding: 10px;
+        border-bottom: 0px solid #ccc;
+    }
+    .dropdown-menu li a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .show {
+        transform: scaleY(1);
+        opacity: 1;
+        background:#3498db;
+        width: 143px;
+    }
+</style>
+
+<body>
+    <div class="dropdown">
+        <button class="dropdown-toggle" onclick="toggleDropdown()">Toggle Dropdown</button>
+        <ul class="dropdown-menu">
+            <li><a href="#">List 1</a></li>
+            <li><a href="#">List 2</a></li>
+            <li><a href="#">List 3</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            var dropdownMenu = document.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('show');
+        }
+
+    </script>
+
+</body>
+
+</html>
