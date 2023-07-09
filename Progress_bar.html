@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progess Bar</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    .center{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+    }
+    .container {
+        width: 300px;
+        height: 20px;
+        background: #4c4c4c;
+        margin: 100px;
+    }
+
+    .inline {
+        width: 80%;
+        height: 20px;
+        background: #59ff00;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .round_container {
+        width: 300px;
+        height: 20px;
+        background: #4c4c4c;
+        margin: 100px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+
+    .round_container .inline {
+        width: 50%;
+        height: 20px;
+        background: #ff0000;
+        text-align: center;
+        line-height: 20px;
+        color: white;
+        font-size: 12px;
+    }
+
+    .gradient_container {
+        width: 300px;
+        height: 20px;
+        background: #4c4c4c;
+        margin: 100px;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+
+    .gradient_container .inline {
+        width: 60%;
+        height: 20px;
+        background: linear-gradient(red -45%,blue);
+        text-align: center;
+        line-height: 20px;
+        color: white;
+        font-size: 12px;
+    }
+</style>
+
+<body>
+    <h1>Progess Bar</h1>
+    <div class="center">
+
+        <!-- Simple Progess Bar -->
+        <div class="container">
+            <div class="inline">80%</div>
+        </div>
+
+        <!-- Round Progess Bar -->
+        <div class="round_container">
+            <div class="inline">50%</div>
+        </div>
+
+        <!-- Gradient Progess Bar -->
+        <div class="gradient_container">
+            <div class="inline">60%</div>
+        </div>
+    </div>
+</body>
+
+</html>
