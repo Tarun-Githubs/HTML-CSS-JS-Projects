@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Zoom Effects</title>
+</head>
+<style>
+    .container{
+        width: 890px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+    }
+    .box{
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+        margin: 20px;
+        overflow: hidden;
+        box-shadow: rgba(99,99,99,.2) 0px 2px 8px 0px;
+    }
+    .box img{
+        width: 100%;
+        transition: .5s;
+    }
+    .box img:hover{
+        transition: .5s;
+        transform: scale(1.5);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box"><img src="./img/food.png" alt=""></div>
+        <div class="box"><img src="./img/food1.png" alt=""></div>
+        <div class="box"><img src="./img/food2.png" alt=""></div>
+    </div>
+</body>
+</html>
