@@ -1,0 +1,53 @@
+body{
+    background: #f5f5f5;
+    color: black;
+}
+.Header{
+    padding-top: 22px;
+}
+.navbar-brand{
+    font-size: 40px!important;
+    font-weight: 600;
+}
+.nav-item a{
+    color: black;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    color: black;
+}
+.left{
+    width: 505px;
+    height: 407px;
+    border: 0px solid red;
+    margin-top: 61px;
+}
+.left h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+.email{
+    margin-top:29px ;
+    font-size: 32px;
+    font-weight: bold;
+}
+.email p{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px;
+}
+.social{
+    margin-top:29px ;
+    font-size: 32px;
+    font-weight: bold;
+}
+.social li{
+    list-style-type:none;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px;
+}
+.right{
+    border: 0px solid red;
+    margin-top: 45px;
+}
