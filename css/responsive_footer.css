@@ -1,0 +1,113 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #282828;
+    padding-bottom: 20px;
+}
+
+.square{
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+    padding: 0px !important;
+    padding-bottom: 20px;
+}
+
+.brand{
+    margin-top: 20px;
+    font-size: 38px;
+    color: #00a991;
+    font-weight: bold;
+}
+
+.about{
+    width: 85%;
+    color: white;
+    margin-top: 5px;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 38px;
+    color: #00a991;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-list{
+    padding: 0;
+}
+
+.p-list li{
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.l-list{
+    padding: 0;
+}
+
+.l-list li{
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.contact{
+    padding: 0;
+}
+
+.contact li{
+    display: block;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+
+.social-media{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media li{
+    display: inline-flex;
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.copy{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:767px){
+    .heading{
+        text-align: left;
+    }
+    .square{
+        padding: 0px 30px !important;
+        margin-top: 10px!important;
+    }
+
+    .p-list li , .l-list li , .contact li{
+        text-align: left;
+    }
+    .social-media{
+        padding-left: 0!important;
+    }
+
+    .social-media li{
+        margin: 5px;
+    }
+}
+
+
