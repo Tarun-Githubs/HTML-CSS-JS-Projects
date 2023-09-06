@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<style>
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background:#6366F1;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.container h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+form{
+    width: 280px;
+    height: 220px;
+    margin: auto;
+    overflow: hidden;
+}
+label{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+input{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width: 100%;
+    height: 35px;
+    margin-top: 32px;
+    font-size: 18px;
+    color: #6366f1;
+    border: none;
+    cursor: pointer;
+}
+.forget{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+</style>
+
+<body>
+    <div class="container">
+        <h1>User Login</h1>
+        <form action="">
+            <label for="" class="label">Username</label> <br>
+            <input type="text" required><br>
+            <label for="">Password</label> <br>
+            <input type="password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        <div class="forget">Forget Password? <br>or <br> Already have account</div>
+    </div>
+</body>
+
+</html>
