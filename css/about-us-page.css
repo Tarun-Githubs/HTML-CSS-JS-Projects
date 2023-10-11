@@ -1,0 +1,58 @@
+* {
+  font-family: Arial;
+  margin: 0;
+}
+body {
+  background: #f9fdf0;
+}
+.container{
+    width: 1140px;
+    height: 100vh;
+    margin: auto;
+}
+
+.container > h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fe5f55;
+    text-align: center;
+    margin-top: 67px;
+}
+
+.box{
+    width: 50%;
+    float: left;
+    margin-top: 55px;
+}
+
+.box h1{
+    width: 475px;
+    text-align: left;
+    font-size: 40px;
+    color: #fe5f55;
+}
+
+.box p{
+    width: 475px;
+    text-align: justify;
+     margin-top: 18px;
+     font-size: 18px;
+}
+
+button{
+    font-size: 18px;
+    margin-top: 25px;
+    background: #fe5f55;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.picture{
+    float: right;
+    overflow: hidden;
+}
+
+
+
