@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: url('../img/Glassmorphism_bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  background: #ffffff0f;
+  width: auto;
+  height: auto;
+  padding: 50px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: #0000001a 0px 4px 12px;
+}
+
+.container h1{
+  color: #bda064;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.input{
+  width: 240px;
+  padding: 12px 12px;
+  border-radius: 12px;
+  margin: 32px 0px;
+  background: #292727;
+}
+
+input{
+  width: 208px;
+  padding: 0px 4px;
+  font-size: 16px;
+  background: none;
+  color: #bda064;
+  border: none;
+}
+input:focus{
+  outline: none;
+  border: none;
+}
+
+.fa-user, .fa-lock{
+  color: #bda064;
+}
+
+button{
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 12px;
+  margin: 12px 0px;
+  background: #bda064;
+  border: 1px solid #bda064;
+  color: #292727;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover{
+  background: none;
+  border: 1px solid #bda064;
+  color: #bda064;
+}
