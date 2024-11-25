@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Page</title>
+  <link rel="stylesheet" href="/css/faq.css">
+</head>
+<body>
+    <nav>
+      <div class="container">
+        <div class="brand">Tarun Code</div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li class="active">FAQ</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="faq-container">
+      <h1>Frequently Asked Question</h1>
+
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">
+          <h2>What is your return policy?</h2>
+          <span class="arrow">&#x25BC;</span>
+        </div>
+
+        <div class="answer">
+          <p>We offer a 30-day return policy on all items. Please contact support for more details.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">
+          <h2>Do you offer international shipping? </h2>
+          <span class="arrow">&#x25BC;</span>
+        </div>
+
+        <div class="answer">
+          <p>Yes, we ship internationally with additional fees. Shipping times vary by locations. </p>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+      function toggleAnswer(element){
+        const answer = element.nextElementSibling;
+        const arrow = element.querySelector('.arrow');
+
+        if(answer.style.display==="block"){
+          answer.style.display="none";
+          arrow.style.transform="rotate(0deg)";
+        }
+        else{
+          answer.style.display="block";
+          arrow.style.transform="rotate(180deg)";
+        }
+      }
+    </script>
+</body>
+</html>
