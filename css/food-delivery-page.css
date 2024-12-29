@@ -1,0 +1,90 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+
+header{
+  background: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+section{
+  margin-bottom: 30px;
+}
+
+section h2{
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 10px;
+  width: 30%;
+}
+
+.cards{
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 10px;
+  width: 47%;
+}
+
+.card img, .cards img{
+  width: 100%;
+}
+
+.card-body{
+  padding: 15px;
+  text-align: center;
+}
+
+.card-body h3{
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.card-body p{
+  color: #121212;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  background: #ff5722;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #e64a19;
+}
