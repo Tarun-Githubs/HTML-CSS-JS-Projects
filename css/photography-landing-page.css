@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 16px 28px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 4px 12px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: #007bff;
+}
+
+#about{
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 028px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+#about p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+#showcase{
+    width: 1140px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container img{
+    width: 50%;
+}
+
+#contact{
+    margin: 20px;
+}
+
+form{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+form h2{
+    font-size: 28px;
+    margin: 0;
+}
+
+form p{
+    text-align: center;
+    font-size: 18px;
+    opacity: .7;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 12px 0px;
+    border: 1px solid #333;
+}
+
+label{
+    position: relative;
+    top: 4px;
+}
+
+button{
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    font-weight: 500;
+}
+
+footer{
+    text-align: center;
+    padding: 16px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
