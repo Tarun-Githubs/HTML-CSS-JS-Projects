@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter Signup</title>
+</head>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .signup-container{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .signup-container h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .lead{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .form-group{
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  button{
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover{
+    background: #45a049;
+  }
+
+  p{
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+  }
+</style>
+<body>
+  <div class="signup-container">
+    <h1>Subscribe to our newsletter</h1>
+    <p class="lead">
+      Get our free ebook on "Healthy Eating Habits" when you sign up!
+    </p>
+
+    <form action="">
+      <div class="form-group">
+        <label for="">Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="">Email Address</label>
+        <input type="email" placeholder="Enter your email" required>
+      </div>
+      <button>Subscribe Now</button>
+      <p>We respect your privacy. Unsubscribe anytime.</p>
+    </form>
+  </div>
+</body>
+</html>
