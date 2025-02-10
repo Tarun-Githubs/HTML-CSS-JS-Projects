@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadcrumb Navigation</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+
+    .breadcrumb{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .breadcrumb a{
+        text-decoration: none;
+        color: #0073e6;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .breadcrumb:hover{
+        color: #004a99;
+    }
+
+    .breadcrumb span{
+        margin: 0 5px;
+        color: #555;
+    }
+
+    .breadcrumb .active{
+        color: #000;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h1>Breadcrumb Navigation</h1>
+    <nav class="breadcrumb">
+        <a href="/breadcrumb-file/home.html">Home</a>
+        <span>›</span>
+        <a href="/breadcrumb-file/category.html">Category</a>
+        <span>›</span>
+        <a href="/breadcrumb-file/category.html">Sub-category</a>
+        <span>›</span>
+        <a href="" class="active">Product</a>
+    </nav>
+</body>
+</html>
