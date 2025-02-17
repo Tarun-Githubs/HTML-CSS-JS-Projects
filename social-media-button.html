@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Buttons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<style>
+    body{
+        font-family: arial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f4f4f4;
+    }
+
+    .social-media{
+        display: flex;
+        gap: 20px;
+    }
+
+    .social-icon{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: #333;
+        color: white;
+        font-size: 24px;
+        transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        text-decoration: none;
+    }
+
+    .social-icon:hover{
+        transform: scale(1.1);
+    }
+
+    .facebook{
+        background: #3b5998;
+    }
+
+    .twitter{
+        background: #1da1f2;
+    }
+
+    .instagram{
+        background: #e4405f;
+    }
+
+    .linkedin{
+        background: #0077b5;
+    }
+
+    
+
+
+</style>
+<body>
+    <div class="social-media">
+        <a href="https://www.facebook.com" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" class="social-icon linkedin"><i class="fab fa-linkedin"></i></a>
+    </div>
+</body>
+</html>
