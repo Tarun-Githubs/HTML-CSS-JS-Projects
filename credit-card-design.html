@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Payment Form</title>
+    <link rel="stylesheet" href="/css/credit-card-design.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Payment Details</h2>
+        <form action="">
+            <div class="card-icons">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/120px-Visa.svg.png" alt="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/120px-Mastercard_2019_logo.svg.png" alt="#">
+            </div>
+
+            <div class="input-group">
+                <label for="">Cardholder Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="">Card Number</label>
+                <input type="text" placeholder="Enter your card number" maxlength="16" required>
+            </div>
+
+            <div class="input-group-row">
+            <div class="input-group">
+                <label for="">Expiration Date</label>
+                <input type="text" placeholder="MM/YY" maxlength="5" required>
+            </div>
+
+            <div class="input-group">
+                <label for="">CV</label>
+                <input type="text" placeholder="123" required>
+            </div>
+        </div>
+        </form>
+
+        <button class="submit">Pay Now</button>
+    </div>
+</body>
+</html>
